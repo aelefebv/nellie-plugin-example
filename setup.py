@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='my-nellie-plugin',
-    version='0.1.1',
+    version='0.1.2',
     py_modules=['plugin_module'],
 
     install_requires=[
@@ -12,7 +12,7 @@ setup(
 
     entry_points={
         'nellie.plugins': [
-            'Custom Plugin Name = plugin_module:my_custom_nellie_plugin',
+            'Custom Plugin Name = plugin_module:nellie_plugin_function',
         ],
     },
 
