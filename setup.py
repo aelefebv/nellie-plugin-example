@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='my-nellie-plugin',
-    version='0.1.2',
+    version='0.1.3',
     py_modules=['plugin_module'],
 
     install_requires=[
